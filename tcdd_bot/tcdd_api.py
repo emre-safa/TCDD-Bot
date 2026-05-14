@@ -278,6 +278,23 @@ def _ekonomi_count_for_train(train: dict) -> int:
     return best
 
 
+def _ekonomi_cabin_class_id(train: dict) -> int | None:
+    """The numeric cabinClassId for EKONOMİ on this train, or None.
+
+    Crosses cabin.cabinClass.name (string) from train-availability with the
+    cabinClassId (int) used by load-by-train-id and select-seat. Without it
+    the seat picker can't tell EKONOMİ wagons apart from business/disabled.
+    """
+    for fare in train.get("availableFareInfo") or []:
+        for cabin in fare.get("cabinClasses") or []:
+            cc = cabin.get("cabinClass") or {}
+            if cc.get("name") == TARGET_CABIN_CLASS:
+                cid = cc.get("id")
+                if cid is not None:
+                    return int(cid)
+    return None
+
+
 def collect_train_availability(data: dict, from_id: int, to_id: int) -> dict[str, dict]:
     """Return {train_number: {count, depart, arrive, commercial_name, train_id}} for direct trains."""
     out: dict[str, dict] = {}
@@ -297,5 +314,6 @@ def collect_train_availability(data: dict, from_id: int, to_id: int) -> dict[str
                 "arrive": _fmt_train_time(arrive_ms),
                 "commercial_name": t.get("commercialName") or "",
                 "train_id": t.get("id"),
+                "cabin_class_id": _ekonomi_cabin_class_id(t),
             }
     return out

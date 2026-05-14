@@ -50,10 +50,13 @@ def load_seat_maps(from_id: int, to_id: int, train_id: int, leg_index: int = 0) 
         return None
 
 
-def pick_free_seat(seat_maps_data: dict) -> dict | None:
-    """Return the first bookable seat across all on-sale wagons, or None.
+def pick_free_seat(seat_maps_data: dict, cabin_class_id: int) -> dict | None:
+    """Return the first bookable seat in the requested cabin class, or None.
 
-    A seat is bookable when it appears in seatPrices but not in allocationSeats.
+    A seat is bookable when it appears in seatPrices with the matching
+    cabinClassId and is not in allocationSeats. Class-filtering is what keeps
+    us from holding a business or disabled seat when the user wants EKONOMİ.
+
     Gender restrictions on free seats aren't surfaced in this response; if the
     select-seat POST is rejected for that reason, the hold fails and the user
     gets the fallback alert instead of a held seat.
@@ -63,6 +66,8 @@ def pick_free_seat(seat_maps_data: dict) -> dict | None:
             continue
         taken = {s.get("seatNumber") for s in wagon.get("allocationSeats") or []}
         for sp in wagon.get("seatPrices") or []:
+            if sp.get("cabinClassId") != cabin_class_id:
+                continue
             seat_no = sp.get("seatNumber")
             if seat_no and seat_no not in taken:
                 return {
@@ -109,17 +114,19 @@ def select_seat(train_car_id: int, from_id: int, to_id: int, seat_number: str) -
         return None
 
 
-def try_hold_seat(from_id: int, to_id: int, train_id: int) -> dict | None:
-    """Load seat maps → pick a free seat → lock it. Returns
-    {"seat": "4B", "wagon_index": 0} on success, None otherwise.
+def try_hold_seat(from_id: int, to_id: int, train_id: int, cabin_class_id: int) -> dict | None:
+    """Load seat maps → pick a free seat in cabin_class_id → lock it.
+
+    Returns {"seat": "4B", "wagon_index": 0} on success, None otherwise.
     """
     seat_maps = load_seat_maps(from_id, to_id, train_id)
     if not seat_maps:
         return None
-    pick = pick_free_seat(seat_maps)
+    pick = pick_free_seat(seat_maps, cabin_class_id)
     if not pick:
         print(
-            f"[tcdd] no free seat in any wagon for train {train_id}",
+            f"[tcdd] no free seat in cabin class {cabin_class_id} "
+            f"for train {train_id}",
             file=sys.stderr,
         )
         return None

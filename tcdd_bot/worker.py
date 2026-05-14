@@ -105,12 +105,20 @@ def handle_user_watch(chat_id: int, watch: dict, train_avail: dict[str, dict]) -
             depart = info.get("depart", "—") if info else "—"
             arrive = info.get("arrive", "—") if info else "—"
             train_id = info.get("train_id") if info else None
+            cabin_class_id = info.get("cabin_class_id") if info else None
 
             hold = None
-            if train_id is not None:
+            if train_id is None or cabin_class_id is None:
+                print(
+                    f"[hold] skipped train {number}: "
+                    f"train_id={train_id} cabin_class_id={cabin_class_id}",
+                    file=sys.stderr,
+                )
+            else:
                 try:
                     hold = try_hold_seat(
-                        watch["from_id"], watch["to_id"], int(train_id),
+                        watch["from_id"], watch["to_id"],
+                        int(train_id), int(cabin_class_id),
                     )
                 except Exception as e:
                     print(f"[hold] unexpected error: {e}", file=sys.stderr)
