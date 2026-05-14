@@ -3,9 +3,7 @@
 A successful lock puts the seat in the basket and starts TCDD's 10-minute
 countdown. The hold is tied to the account behind TCDD_AUTH_TOKEN.
 
-release_seat() lets the user hand the seat back to TCDD before that 10-minute
-window expires — typically because they want to buy it themselves rather than
-wait for the auto-release.
+Releasing a held seat lives in seat_release.py.
 """
 from __future__ import annotations
 
@@ -16,7 +14,6 @@ import requests
 from tcdd_bot.config import (
     BOOKING_GENDER,
     TCDD_LOAD_BY_TRAIN_URL,
-    TCDD_RELEASE_SEAT_URL,
     TCDD_SELECT_SEAT_URL,
 )
 from tcdd_bot.tcdd_api import TcddAuthError, post_tcdd_json
@@ -115,38 +112,6 @@ def select_seat(train_car_id: int, from_id: int, to_id: int, seat_number: str) -
     except Exception as e:
         print(f"[tcdd] select-seat error: {e}", file=sys.stderr)
         return None
-
-
-def release_seat(train_car_id: int, allocation_id: str, seat_number: str) -> bool:
-    """POST the release payload to free a previously held seat. True on success."""
-    payload = {
-        "trainCarId": train_car_id,
-        "allocationId": allocation_id,
-        "seatNumber": seat_number,
-    }
-    try:
-        post_tcdd_json(TCDD_RELEASE_SEAT_URL, payload)
-        return True
-    except TcddAuthError:
-        return False
-    except requests.exceptions.HTTPError as e:
-        body = ""
-        status: int | str = "?"
-        if e.response is not None:
-            status = e.response.status_code
-            try:
-                body = e.response.text[:300]
-            except Exception:
-                pass
-        print(
-            f"[tcdd] release-seat rejected wagon={train_car_id} seat={seat_number} "
-            f"alloc={allocation_id}: HTTP {status} {body}",
-            file=sys.stderr,
-        )
-        return False
-    except Exception as e:
-        print(f"[tcdd] release-seat error: {e}", file=sys.stderr)
-        return False
 
 
 def try_hold_seat(from_id: int, to_id: int, train_id: int, cabin_class_id: int) -> dict | None:

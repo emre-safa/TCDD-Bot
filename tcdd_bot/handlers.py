@@ -8,7 +8,7 @@ import traceback
 from datetime import datetime
 
 from tcdd_bot.config import CHECK_INTERVAL_SECONDS
-from tcdd_bot.seat_hold import release_seat
+from tcdd_bot.seat_release import release_seat
 from tcdd_bot.stations import find_stations, load_stations
 from tcdd_bot.subscriptions import (
     add_watch,

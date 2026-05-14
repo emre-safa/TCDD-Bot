@@ -169,7 +169,14 @@ def post_tcdd_json(url: str, payload: dict) -> dict:
                 _log_auth_failure(resp.status_code)
                 raise TcddAuthError(resp.status_code)
             resp.raise_for_status()
-            return resp.json()
+            # release-seat returns 2xx with an empty body; treat that as {} so
+            # callers don't have to distinguish "no JSON" from "rejected".
+            if not resp.content:
+                return {}
+            try:
+                return resp.json()
+            except ValueError:
+                return {}
         except requests.exceptions.Timeout as e:
             last_timeout = e
             if attempt < TCDD_HTTP_RETRIES:
