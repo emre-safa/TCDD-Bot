@@ -1,0 +1,8 @@
+ssh root@207.154.209.191
+
+source tcdd-env/bin/activate
+
+tmux new -s bot_session
+tmux attach -t bot_session
+
+Ctrl+B, and then press D.

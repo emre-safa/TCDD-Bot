@@ -1,0 +1,3118 @@
+[
+    {
+        "id": 677,
+        "name": "GÖLCÜK"
+    },
+    {
+        "id": 263,
+        "name": "PINARLI DURAĞI"
+    },
+    {
+        "id": 1310,
+        "name": "SAZLIK"
+    },
+    {
+        "id": 1357,
+        "name": "EU102 KM 59+108 MAKAS"
+    },
+    {
+        "id": 1356,
+        "name": "SİRKECİ MR"
+    },
+    {
+        "id": 170,
+        "name": "SALTUKOVA"
+    },
+    {
+        "id": 753,
+        "name": "ADANA"
+    },
+    {
+        "id": 1188,
+        "name": "ÖRENKÖY (KM 160+610)"
+    },
+    {
+        "id": 1261,
+        "name": "SİRKELİ SAYDİNG"
+    },
+    {
+        "id": 194,
+        "name": "ŞEFAATLİ"
+    },
+    {
+        "id": 280,
+        "name": "AKHİSAR"
+    },
+    {
+        "id": 304,
+        "name": "ÇALIKÖY"
+    },
+    {
+        "id": 346,
+        "name": "KONAKLAR"
+    },
+    {
+        "id": 369,
+        "name": "SALİHLİ"
+    },
+    {
+        "id": 541,
+        "name": "KM.720+460 S"
+    },
+    {
+        "id": 630,
+        "name": "AKÇAMAĞARA"
+    },
+    {
+        "id": 768,
+        "name": "ÇAKMAK"
+    },
+    {
+        "id": 1155,
+        "name": "ÇATAL"
+    },
+    {
+        "id": 811,
+        "name": "SARISEKİ"
+    },
+    {
+        "id": 143,
+        "name": "ELMADAĞ"
+    },
+    {
+        "id": 532,
+        "name": "KARS"
+    },
+    {
+        "id": 535,
+        "name": "KEMAH"
+    },
+    {
+        "id": 1311,
+        "name": "SOĞUKSU"
+    },
+    {
+        "id": 395,
+        "name": "UMURLU"
+    },
+    {
+        "id": 627,
+        "name": "KM.102+600"
+    },
+    {
+        "id": 1336,
+        "name": "SELÇUKLU YHT (KONYA)"
+    },
+    {
+        "id": 896,
+        "name": "ALAYUNT MÜSELLES"
+    },
+    {
+        "id": 980,
+        "name": "BALABANLI"
+    },
+    {
+        "id": 1170,
+        "name": "BALIKESİR (GÖKKÖY)"
+    },
+    {
+        "id": 129,
+        "name": "FİLYOS"
+    },
+    {
+        "id": 1218,
+        "name": "KM. 174+027 HT (SAY6)"
+    },
+    {
+        "id": 1398,
+        "name": "ARINDIK"
+    },
+    {
+        "id": 1377,
+        "name": "SORGUN YHT"
+    },
+    {
+        "id": 1385,
+        "name": "GÜMÜŞDAĞ"
+    },
+    {
+        "id": 484,
+        "name": "ÇETİNKAYA"
+    },
+    {
+        "id": 354,
+        "name": "İSABEYLİ"
+    },
+    {
+        "id": 1407,
+        "name": "KURTÇİMENİ"
+    },
+    {
+        "id": 1307,
+        "name": "GÜNDOĞAN"
+    },
+    {
+        "id": 328,
+        "name": "BAKIR"
+    },
+    {
+        "id": 150,
+        "name": "KALKANCIK"
+    },
+    {
+        "id": 167,
+        "name": "KILIÇLAR"
+    },
+    {
+        "id": 173,
+        "name": "KURBAĞALI"
+    },
+    {
+        "id": 101,
+        "name": "ARAPLI"
+    },
+    {
+        "id": 153,
+        "name": "KARABÜK"
+    },
+    {
+        "id": 300,
+        "name": "ADNANMENDERES HAVAALANI"
+    },
+    {
+        "id": 651,
+        "name": "BATTALGAZİ"
+    },
+    {
+        "id": 688,
+        "name": "SALAT"
+    },
+    {
+        "id": 1055,
+        "name": "SULTANHİSAR"
+    },
+    {
+        "id": 1163,
+        "name": "TURGUTLU"
+    },
+    {
+        "id": 4,
+        "name": "ALİFUATPAŞA"
+    },
+    {
+        "id": 17,
+        "name": "DOĞANÇAY"
+    },
+    {
+        "id": 50,
+        "name": "KARAKÖY"
+    },
+    {
+        "id": 60,
+        "name": "YAYLA"
+    },
+    {
+        "id": 87,
+        "name": "BİÇER"
+    },
+    {
+        "id": 44,
+        "name": "MİTHATPAŞA"
+    },
+    {
+        "id": 45,
+        "name": "OSMANELİ"
+    },
+    {
+        "id": 58,
+        "name": "VEZİRHAN"
+    },
+    {
+        "id": 69,
+        "name": "SAPANCA"
+    },
+    {
+        "id": 84,
+        "name": "BEYLİKKÖPRÜ"
+    },
+    {
+        "id": 105,
+        "name": "BALIŞIH"
+    },
+    {
+        "id": 107,
+        "name": "YUNUSEMRE"
+    },
+    {
+        "id": 290,
+        "name": "BANAZ"
+    },
+    {
+        "id": 1421,
+        "name": "TÜRKMENTEPE"
+    },
+    {
+        "id": 3,
+        "name": "ADAPAZARI"
+    },
+    {
+        "id": 9,
+        "name": "BİLECİK"
+    },
+    {
+        "id": 293,
+        "name": "BANDIRMA ŞEHİR"
+    },
+    {
+        "id": 1148,
+        "name": "ÖDEMİŞ ŞEHİR"
+    },
+    {
+        "id": 1150,
+        "name": "BAYINDIR"
+    },
+    {
+        "id": 1348,
+        "name": "KM 98+382"
+    },
+    {
+        "id": 1399,
+        "name": "AKBULUT"
+    },
+    {
+        "id": 93,
+        "name": "ESKİŞEHİR"
+    },
+    {
+        "id": 1378,
+        "name": "AKDAĞMADENİ YHT"
+    },
+    {
+        "id": 48,
+        "name": "İSTANBUL(PENDİK)"
+    },
+    {
+        "id": 1318,
+        "name": "YUNUS SAYDİNG"
+    },
+    {
+        "id": 1315,
+        "name": "TUZLA SAYDİNG"
+    },
+    {
+        "id": 1351,
+        "name": "AYRILIKÇEŞMESİ"
+    },
+    {
+        "id": 1352,
+        "name": "ÜSKÜDAR"
+    },
+    {
+        "id": 494,
+        "name": "KM.45+492 MR"
+    },
+    {
+        "id": 1175,
+        "name": "KM. 215+596 HT"
+    },
+    {
+        "id": 1176,
+        "name": "KM. 224+482 HT"
+    },
+    {
+        "id": 1422,
+        "name": "YEDİ EYLÜL"
+    },
+    {
+        "id": 1167,
+        "name": "İTOP İLTİSAK HATTI"
+    },
+    {
+        "id": 1168,
+        "name": "KUŞÇUBURUN DURAK"
+    },
+    {
+        "id": 1177,
+        "name": "KM.285+535 HT"
+    },
+    {
+        "id": 46,
+        "name": "PAMUKOVA"
+    },
+    {
+        "id": 103,
+        "name": "BUĞRA"
+    },
+    {
+        "id": 157,
+        "name": "KARAPINAR"
+    },
+    {
+        "id": 180,
+        "name": "MAHMUTLAR"
+    },
+    {
+        "id": 189,
+        "name": "PİRİNÇLİK"
+    },
+    {
+        "id": 195,
+        "name": "TATBEKİRLİ"
+    },
+    {
+        "id": 204,
+        "name": "YAĞLI"
+    },
+    {
+        "id": 242,
+        "name": "SAYDİNG - 3"
+    },
+    {
+        "id": 255,
+        "name": "GONCALI (SÜTLAÇ BM)"
+    },
+    {
+        "id": 258,
+        "name": "KM 5+691 YHT"
+    },
+    {
+        "id": 774,
+        "name": "KARABASAMAK"
+    },
+    {
+        "id": 1313,
+        "name": "GEBZE(YHT)"
+    },
+    {
+        "id": 133,
+        "name": "GÖBÜ"
+    },
+    {
+        "id": 1195,
+        "name": "BALASTOCAĞI SAYDİNGİ (KM 347+765)"
+    },
+    {
+        "id": 314,
+        "name": "BEYCE"
+    },
+    {
+        "id": 1027,
+        "name": "ÖMERLİ"
+    },
+    {
+        "id": 1088,
+        "name": "KIRCASALİH"
+    },
+    {
+        "id": 399,
+        "name": "YAKAKÖY"
+    },
+    {
+        "id": 148,
+        "name": "IŞIKVEREN"
+    },
+    {
+        "id": 329,
+        "name": "HİLAL"
+    },
+    {
+        "id": 356,
+        "name": "MUSTAFA KEMAL PAŞA"
+    },
+    {
+        "id": 1254,
+        "name": "KM 6+125"
+    },
+    {
+        "id": 1300,
+        "name": "YENİ SANAYİ DURAĞI"
+    },
+    {
+        "id": 1301,
+        "name": "TERMİNAL DURAĞI"
+    },
+    {
+        "id": 210,
+        "name": "ÜÇBURGU"
+    },
+    {
+        "id": 419,
+        "name": "KM.85+597"
+    },
+    {
+        "id": 1192,
+        "name": "YILDIRIM SAYDİNGİ"
+    },
+    {
+        "id": 1316,
+        "name": "TERSANE SAYDİNG"
+    },
+    {
+        "id": 1319,
+        "name": "ATALAR SAYDİNG"
+    },
+    {
+        "id": 1320,
+        "name": "MALTEPE SAYDİNG"
+    },
+    {
+        "id": 1322,
+        "name": "BOSTANCI SAYDİNG"
+    },
+    {
+        "id": 1185,
+        "name": "KARDEŞGEDİĞİ"
+    },
+    {
+        "id": 1173,
+        "name": "KOÇKALE"
+    },
+    {
+        "id": 214,
+        "name": "BAKACAKKADI"
+    },
+    {
+        "id": 218,
+        "name": "SEFERCİK"
+    },
+    {
+        "id": 164,
+        "name": "İNAĞZI"
+    },
+    {
+        "id": 235,
+        "name": "KM.456+029 YHT"
+    },
+    {
+        "id": 364,
+        "name": "ÖMERKÖY"
+    },
+    {
+        "id": 376,
+        "name": "SIĞIRCI"
+    },
+    {
+        "id": 380,
+        "name": "SÜLEYMANLI"
+    },
+    {
+        "id": 181,
+        "name": "MALIKÖY"
+    },
+    {
+        "id": 228,
+        "name": "TÜRKOBASI"
+    },
+    {
+        "id": 589,
+        "name": "ULAŞ"
+    },
+    {
+        "id": 351,
+        "name": "İLKKURŞUN"
+    },
+    {
+        "id": 401,
+        "name": "YENİKÖY D"
+    },
+    {
+        "id": 383,
+        "name": "TAŞKESİK"
+    },
+    {
+        "id": 337,
+        "name": "KABAZLI"
+    },
+    {
+        "id": 284,
+        "name": "PİYADELER"
+    },
+    {
+        "id": 374,
+        "name": "SAZLIKÖY"
+    },
+    {
+        "id": 226,
+        "name": "KÖLEMEN"
+    },
+    {
+        "id": 237,
+        "name": "IBRICAK"
+    },
+    {
+        "id": 475,
+        "name": "CEBESOY"
+    },
+    {
+        "id": 501,
+        "name": "ATMA"
+    },
+    {
+        "id": 620,
+        "name": "DUTLUK"
+    },
+    {
+        "id": 608,
+        "name": "SALUCA"
+    },
+    {
+        "id": 570,
+        "name": "ŞAHNALAR"
+    },
+    {
+        "id": 564,
+        "name": "KURUDERE"
+    },
+    {
+        "id": 469,
+        "name": "BORSA"
+    },
+    {
+        "id": 559,
+        "name": "SAMURÇAY"
+    },
+    {
+        "id": 573,
+        "name": "TAŞLIDERE"
+    },
+    {
+        "id": 430,
+        "name": "KM.1+290"
+    },
+    {
+        "id": 454,
+        "name": "KM 649+760 (VARYANTBAŞI)"
+    },
+    {
+        "id": 457,
+        "name": "KM 700+670 (VARYANTSONU)"
+    },
+    {
+        "id": 118,
+        "name": "ÇATALAĞZI"
+    },
+    {
+        "id": 507,
+        "name": "DEMİRCİKÖY"
+    },
+    {
+        "id": 519,
+        "name": "İHSANLI"
+    },
+    {
+        "id": 526,
+        "name": "GÜCÜK"
+    },
+    {
+        "id": 548,
+        "name": "MENTEŞE"
+    },
+    {
+        "id": 550,
+        "name": "MEZRA"
+    },
+    {
+        "id": 709,
+        "name": "BAHÇETEPE"
+    },
+    {
+        "id": 855,
+        "name": "PAYAS ŞEHİR D. KM.38+075"
+    },
+    {
+        "id": 758,
+        "name": "KM 11+100"
+    },
+    {
+        "id": 722,
+        "name": "SEYİTHASAN"
+    },
+    {
+        "id": 724,
+        "name": "HODAN"
+    },
+    {
+        "id": 1330,
+        "name": "YEŞİLKÖY S HAT3"
+    },
+    {
+        "id": 1326,
+        "name": "AS04 KM.44+471 MAKAS"
+    },
+    {
+        "id": 1327,
+        "name": "AS03 KM.44+558 MAKAS"
+    },
+    {
+        "id": 1405,
+        "name": "ÖZALP"
+    },
+    {
+        "id": 823,
+        "name": "TIRMIL"
+    },
+    {
+        "id": 1341,
+        "name": "KM  0+936/0+000"
+    },
+    {
+        "id": 643,
+        "name": "KALKIM"
+    },
+    {
+        "id": 953,
+        "name": "KOCATEPE"
+    },
+    {
+        "id": 1354,
+        "name": "KAZLIÇEŞME MR"
+    },
+    {
+        "id": 1349,
+        "name": "EU103 KM 59+220 MAKAS"
+    },
+    {
+        "id": 1355,
+        "name": "YENİKAPI MR"
+    },
+    {
+        "id": 1350,
+        "name": "AS01 KM 44+679 MAKAS"
+    },
+    {
+        "id": 1353,
+        "name": "EU100 KM 58+957 MAKAS"
+    },
+    {
+        "id": 690,
+        "name": "SARSAP"
+    },
+    {
+        "id": 705,
+        "name": "ULUGÜNEY"
+    },
+    {
+        "id": 710,
+        "name": "ÖZDEN"
+    },
+    {
+        "id": 33,
+        "name": "ÇUKURHİSAR"
+    },
+    {
+        "id": 664,
+        "name": "KESİKKÖPRÜ"
+    },
+    {
+        "id": 666,
+        "name": "KONAK"
+    },
+    {
+        "id": 678,
+        "name": "HASANÇELEBİ"
+    },
+    {
+        "id": 1210,
+        "name": "KM. 358+360"
+    },
+    {
+        "id": 1213,
+        "name": "KM. 476+000"
+    },
+    {
+        "id": 748,
+        "name": "KM.262+646"
+    },
+    {
+        "id": 43,
+        "name": "MEKECE"
+    },
+    {
+        "id": 70,
+        "name": "SARMAŞIK"
+    },
+    {
+        "id": 83,
+        "name": "İĞCİLER"
+    },
+    {
+        "id": 85,
+        "name": "SAZILAR"
+    },
+    {
+        "id": 86,
+        "name": "İLÖREN"
+    },
+    {
+        "id": 465,
+        "name": "BAĞIŞTAŞ"
+    },
+    {
+        "id": 90,
+        "name": "ÇARDAKBAŞI"
+    },
+    {
+        "id": 96,
+        "name": "ALİBEY"
+    },
+    {
+        "id": 743,
+        "name": "HARPUT İSTASYON"
+    },
+    {
+        "id": 47,
+        "name": "PELİTÖZÜ"
+    },
+    {
+        "id": 876,
+        "name": "HOROZLUHAN YHT"
+    },
+    {
+        "id": 882,
+        "name": "BALMAHMUT"
+    },
+    {
+        "id": 333,
+        "name": "DOYRANLI"
+    },
+    {
+        "id": 334,
+        "name": "ELİFLİ"
+    },
+    {
+        "id": 1339,
+        "name": "DENİZCİLER"
+    },
+    {
+        "id": 1340,
+        "name": "YENİKÖŞK"
+    },
+    {
+        "id": 1344,
+        "name": "TAŞLICA"
+    },
+    {
+        "id": 1314,
+        "name": "ÇAYIROVA SAYDİNG"
+    },
+    {
+        "id": 944,
+        "name": "MAHMUDİYE"
+    },
+    {
+        "id": 128,
+        "name": "FEHİMLİ"
+    },
+    {
+        "id": 946,
+        "name": "NALLIKAYA"
+    },
+    {
+        "id": 1043,
+        "name": "İZZETTİN"
+    },
+    {
+        "id": 1198,
+        "name": "KM. 69+305"
+    },
+    {
+        "id": 299,
+        "name": "BEYTİKÖY"
+    },
+    {
+        "id": 307,
+        "name": "ÇOBANİSA"
+    },
+    {
+        "id": 310,
+        "name": "DEREBAŞI"
+    },
+    {
+        "id": 325,
+        "name": "GÜRGÜR"
+    },
+    {
+        "id": 1343,
+        "name": "KAYI"
+    },
+    {
+        "id": 324,
+        "name": "GÜMÜŞÇAYI"
+    },
+    {
+        "id": 113,
+        "name": "CEBECİLER"
+    },
+    {
+        "id": 122,
+        "name": "DERECİKÖREN"
+    },
+    {
+        "id": 123,
+        "name": "DÜMBELEK"
+    },
+    {
+        "id": 124,
+        "name": "BAŞKÖY"
+    },
+    {
+        "id": 132,
+        "name": "GERMECE"
+    },
+    {
+        "id": 480,
+        "name": "ÇAMLIBEL"
+    },
+    {
+        "id": 496,
+        "name": "ERYATAĞI"
+    },
+    {
+        "id": 1097,
+        "name": "YALINLI"
+    },
+    {
+        "id": 106,
+        "name": "SAZAK"
+    },
+    {
+        "id": 208,
+        "name": "YENİYAPAN"
+    },
+    {
+        "id": 241,
+        "name": "SAYDİNG - 2"
+    },
+    {
+        "id": 243,
+        "name": "SAYDİNG - 4"
+    },
+    {
+        "id": 259,
+        "name": "SAYDİNG - 1"
+    },
+    {
+        "id": 327,
+        "name": "HALKAPINAR"
+    },
+    {
+        "id": 381,
+        "name": "ŞEMİKLER"
+    },
+    {
+        "id": 394,
+        "name": "ULUKENT"
+    },
+    {
+        "id": 411,
+        "name": "TURAN"
+    },
+    {
+        "id": 474,
+        "name": "YILDIZTEPE"
+    },
+    {
+        "id": 583,
+        "name": "YAPI"
+    },
+    {
+        "id": 116,
+        "name": "ÇANKIRI"
+    },
+    {
+        "id": 601,
+        "name": "UZUNAHMET"
+    },
+    {
+        "id": 645,
+        "name": "DİLEK"
+    },
+    {
+        "id": 856,
+        "name": "İSDEMİR"
+    },
+    {
+        "id": 897,
+        "name": "DADA"
+    },
+    {
+        "id": 901,
+        "name": "DEMİRCİÖREN"
+    },
+    {
+        "id": 982,
+        "name": "BAYRAMLI"
+    },
+    {
+        "id": 161,
+        "name": "KAYADİBİ"
+    },
+    {
+        "id": 6,
+        "name": "AYVALI"
+    },
+    {
+        "id": 1206,
+        "name": "MARŞANDİZ GAR"
+    },
+    {
+        "id": 7,
+        "name": "BAYIRKÖY"
+    },
+    {
+        "id": 27,
+        "name": "İZMİT"
+    },
+    {
+        "id": 26,
+        "name": "İNÖNÜ"
+    },
+    {
+        "id": 1029,
+        "name": "ABALAR"
+    },
+    {
+        "id": 1048,
+        "name": "SAYDİNG - 5"
+    },
+    {
+        "id": 1112,
+        "name": "HAYRETTİN"
+    },
+    {
+        "id": 29,
+        "name": "KARAGÖZLER"
+    },
+    {
+        "id": 74,
+        "name": "ESENKENT YHT"
+    },
+    {
+        "id": 488,
+        "name": "BEKDİĞİN"
+    },
+    {
+        "id": 80,
+        "name": "AHATLI"
+    },
+    {
+        "id": 1406,
+        "name": "GÜMÜŞDÖVEN"
+    },
+    {
+        "id": 829,
+        "name": "GÜNYAZI"
+    },
+    {
+        "id": 809,
+        "name": "PAYAS"
+    },
+    {
+        "id": 775,
+        "name": "ERZİN"
+    },
+    {
+        "id": 75,
+        "name": "BOĞAZKÖPRÜ (IRMAK BM)"
+    },
+    {
+        "id": 2,
+        "name": "ENVERİYE (HAYDARPAŞA BM)"
+    },
+    {
+        "id": 1073,
+        "name": "KM. 345+500"
+    },
+    {
+        "id": 455,
+        "name": "CANDOĞAN"
+    },
+    {
+        "id": 594,
+        "name": "ÇETİNKAYA (DOĞUKAPI BM)"
+    },
+    {
+        "id": 788,
+        "name": "KARACAİLYAS"
+    },
+    {
+        "id": 13,
+        "name": "BOZÜYÜK"
+    },
+    {
+        "id": 155,
+        "name": "KARAOSMAN"
+    },
+    {
+        "id": 73,
+        "name": "BOĞAZKÖPRÜ (ULUKIŞLA BM)"
+    },
+    {
+        "id": 82,
+        "name": "KM.0+600"
+    },
+    {
+        "id": 91,
+        "name": "AĞAPINAR"
+    },
+    {
+        "id": 92,
+        "name": "HASANBEY"
+    },
+    {
+        "id": 268,
+        "name": "KM.189+320"
+    },
+    {
+        "id": 271,
+        "name": "KM.100+430"
+    },
+    {
+        "id": 1065,
+        "name": "TOPULYURDU"
+    },
+    {
+        "id": 654,
+        "name": "GEYİK"
+    },
+    {
+        "id": 771,
+        "name": "DÖRTYOL"
+    },
+    {
+        "id": 772,
+        "name": "DURAK"
+    },
+    {
+        "id": 892,
+        "name": "ÇAVUŞCUGÖL"
+    },
+    {
+        "id": 900,
+        "name": "DEĞİRMİSAZ"
+    },
+    {
+        "id": 127,
+        "name": "YENİFAKILI"
+    },
+    {
+        "id": 187,
+        "name": "PAŞALI"
+    },
+    {
+        "id": 1324,
+        "name": "ERENKÖY SAYDİNG"
+    },
+    {
+        "id": 1329,
+        "name": "ZEYTİNBURNU S HAT3"
+    },
+    {
+        "id": 1207,
+        "name": "KM. 251+485"
+    },
+    {
+        "id": 503,
+        "name": "GERMİYAN"
+    },
+    {
+        "id": 1139,
+        "name": "KM. 123+400 HT"
+    },
+    {
+        "id": 1345,
+        "name": "KM 331+985 ŞEFKAT BAŞ MAKAS"
+    },
+    {
+        "id": 119,
+        "name": "ÇERİKLİ"
+    },
+    {
+        "id": 873,
+        "name": "AFYON A.ÇETİNKAYA"
+    },
+    {
+        "id": 1004,
+        "name": "MANDIRA"
+    },
+    {
+        "id": 1160,
+        "name": "SANDIKLI"
+    },
+    {
+        "id": 1186,
+        "name": "OVACIK (KM 71+550)"
+    },
+    {
+        "id": 108,
+        "name": "BEYLİKOVA"
+    },
+    {
+        "id": 115,
+        "name": "SARIKENT"
+    },
+    {
+        "id": 151,
+        "name": "KANLICA"
+    },
+    {
+        "id": 156,
+        "name": "KARALAR"
+    },
+    {
+        "id": 158,
+        "name": "KARASENİR"
+    },
+    {
+        "id": 578,
+        "name": "TUZHİSAR"
+    },
+    {
+        "id": 852,
+        "name": "HOROZLUHAN"
+    },
+    {
+        "id": 950,
+        "name": "PINARBAŞI"
+    },
+    {
+        "id": 1044,
+        "name": "KEYKUBAT"
+    },
+    {
+        "id": 531,
+        "name": "KARALIKÖY"
+    },
+    {
+        "id": 787,
+        "name": "İSKENDERUN"
+    },
+    {
+        "id": 506,
+        "name": "DAZLAK"
+    },
+    {
+        "id": 389,
+        "name": "SART"
+    },
+    {
+        "id": 552,
+        "name": "ÖZEL İDARE"
+    },
+    {
+        "id": 635,
+        "name": "UĞUR"
+    },
+    {
+        "id": 631,
+        "name": "AMBAR"
+    },
+    {
+        "id": 555,
+        "name": "DURAKLI"
+    },
+    {
+        "id": 988,
+        "name": "GÖLTAŞ"
+    },
+    {
+        "id": 1342,
+        "name": "AYŞEBACI"
+    },
+    {
+        "id": 1214,
+        "name": "KM. 158+305"
+    },
+    {
+        "id": 1215,
+        "name": "KM. 294+371"
+    },
+    {
+        "id": 1219,
+        "name": "İMAMKÖY"
+    },
+    {
+        "id": 1199,
+        "name": "KM. 70+229"
+    },
+    {
+        "id": 1200,
+        "name": "ÇİZMEBURUN"
+    },
+    {
+        "id": 1202,
+        "name": "SARFAKLAR"
+    },
+    {
+        "id": 1243,
+        "name": "KM. 366+852"
+    },
+    {
+        "id": 1244,
+        "name": "KM. 391+904"
+    },
+    {
+        "id": 230,
+        "name": "ALTAY"
+    },
+    {
+        "id": 256,
+        "name": "KM 461+454 YHT"
+    },
+    {
+        "id": 1187,
+        "name": "AKKÖY (KM 110+500)"
+    },
+    {
+        "id": 1,
+        "name": "KM.238+250"
+    },
+    {
+        "id": 1131,
+        "name": "MUALLİMKÖY HT"
+    },
+    {
+        "id": 838,
+        "name": "TARSUS"
+    },
+    {
+        "id": 860,
+        "name": "TOPRAKKALE (İSKENDERUN BM)"
+    },
+    {
+        "id": 1042,
+        "name": "BOĞAZKÖPRÜ"
+    },
+    {
+        "id": 99,
+        "name": "KM.236+620"
+    },
+    {
+        "id": 109,
+        "name": "BOR"
+    },
+    {
+        "id": 111,
+        "name": "CAFERLİ"
+    },
+    {
+        "id": 125,
+        "name": "BEREKET"
+    },
+    {
+        "id": 126,
+        "name": "BEYDEĞİRMENİ"
+    },
+    {
+        "id": 147,
+        "name": "IRMAK"
+    },
+    {
+        "id": 149,
+        "name": "KALECİK"
+    },
+    {
+        "id": 1041,
+        "name": "BOLKUŞ"
+    },
+    {
+        "id": 104,
+        "name": "BALIKISIK"
+    },
+    {
+        "id": 160,
+        "name": "KAYIKÇILAR"
+    },
+    {
+        "id": 198,
+        "name": "TÜRKALİ"
+    },
+    {
+        "id": 201,
+        "name": "MUSLU"
+    },
+    {
+        "id": 183,
+        "name": "KAZKÖY"
+    },
+    {
+        "id": 1161,
+        "name": "KAYAŞ"
+    },
+    {
+        "id": 168,
+        "name": "KIRIKKALE"
+    },
+    {
+        "id": 177,
+        "name": "LALABEL"
+    },
+    {
+        "id": 178,
+        "name": "LALAHAN"
+    },
+    {
+        "id": 184,
+        "name": "KEMERHİSAR"
+    },
+    {
+        "id": 247,
+        "name": "BEYLİKOVA YHT"
+    },
+    {
+        "id": 249,
+        "name": "BİÇER YHT"
+    },
+    {
+        "id": 254,
+        "name": "GONCALI (DENİZLİ BM)"
+    },
+    {
+        "id": 260,
+        "name": "BALIKESİR (BANDIRMA BM)"
+    },
+    {
+        "id": 266,
+        "name": "KM.205+251"
+    },
+    {
+        "id": 267,
+        "name": "KM.199+510"
+    },
+    {
+        "id": 279,
+        "name": "AHMETLER"
+    },
+    {
+        "id": 281,
+        "name": "AKSAKAL"
+    },
+    {
+        "id": 287,
+        "name": "ATÇA"
+    },
+    {
+        "id": 288,
+        "name": "AYDIN"
+    },
+    {
+        "id": 289,
+        "name": "AYVACIK"
+    },
+    {
+        "id": 291,
+        "name": "BANDIRMA GAR"
+    },
+    {
+        "id": 301,
+        "name": "BUHARKENT"
+    },
+    {
+        "id": 303,
+        "name": "MENDERES"
+    },
+    {
+        "id": 312,
+        "name": "İZMİR (BASMANE)"
+    },
+    {
+        "id": 362,
+        "name": "ORTAKLAR"
+    },
+    {
+        "id": 363,
+        "name": "OTURAK"
+    },
+    {
+        "id": 365,
+        "name": "PANCAR"
+    },
+    {
+        "id": 375,
+        "name": "SELÇUK"
+    },
+    {
+        "id": 377,
+        "name": "SOĞUCAK"
+    },
+    {
+        "id": 388,
+        "name": "SARAYKÖY"
+    },
+    {
+        "id": 390,
+        "name": "SARUHANLI"
+    },
+    {
+        "id": 391,
+        "name": "SAVAŞTEPE"
+    },
+    {
+        "id": 1050,
+        "name": "ALAŞEHİR"
+    },
+    {
+        "id": 1115,
+        "name": "AHMETLİ"
+    },
+    {
+        "id": 1164,
+        "name": "SOMA"
+    },
+    {
+        "id": 367,
+        "name": "SAĞLIK"
+    },
+    {
+        "id": 179,
+        "name": "SAZPINARI"
+    },
+    {
+        "id": 229,
+        "name": "ZONGULDAK (KİREMİTHANE)"
+    },
+    {
+        "id": 152,
+        "name": "KAPUZ"
+    },
+    {
+        "id": 379,
+        "name": "SUSURLUK"
+    },
+    {
+        "id": 396,
+        "name": "URGANLI"
+    },
+    {
+        "id": 397,
+        "name": "UŞAK"
+    },
+    {
+        "id": 403,
+        "name": "SÜNNETÇİLER"
+    },
+    {
+        "id": 410,
+        "name": "TORBALI"
+    },
+    {
+        "id": 445,
+        "name": "YAHŞİLER"
+    },
+    {
+        "id": 456,
+        "name": "YENİKANGAL"
+    },
+    {
+        "id": 461,
+        "name": "AMASYA"
+    },
+    {
+        "id": 462,
+        "name": "ARTOVA"
+    },
+    {
+        "id": 463,
+        "name": "AŞKALE"
+    },
+    {
+        "id": 464,
+        "name": "AVŞAR"
+    },
+    {
+        "id": 471,
+        "name": "BOSTANKAYA"
+    },
+    {
+        "id": 472,
+        "name": "GÖÇENTAŞI"
+    },
+    {
+        "id": 476,
+        "name": "KM.415+791 S"
+    },
+    {
+        "id": 477,
+        "name": "CÜREK"
+    },
+    {
+        "id": 479,
+        "name": "KEMALİYE ÇALTI"
+    },
+    {
+        "id": 483,
+        "name": "TOPAÇ"
+    },
+    {
+        "id": 487,
+        "name": "BEDİRLİ"
+    },
+    {
+        "id": 490,
+        "name": "BOĞAZİÇİ"
+    },
+    {
+        "id": 493,
+        "name": "ERBAŞ"
+    },
+    {
+        "id": 495,
+        "name": "ERİÇ"
+    },
+    {
+        "id": 500,
+        "name": "SANDAL"
+    },
+    {
+        "id": 502,
+        "name": "YENİÇUBUK"
+    },
+    {
+        "id": 505,
+        "name": "ÇUKURBÜK"
+    },
+    {
+        "id": 508,
+        "name": "DEMİRDAĞ"
+    },
+    {
+        "id": 1331,
+        "name": "ATAKÖY S HAT3"
+    },
+    {
+        "id": 509,
+        "name": "GÜLLÜBAĞ"
+    },
+    {
+        "id": 510,
+        "name": "GÜNEŞ"
+    },
+    {
+        "id": 511,
+        "name": "HACIBAYRAM"
+    },
+    {
+        "id": 1059,
+        "name": "ALP"
+    },
+    {
+        "id": 1152,
+        "name": "ERZİNCAN"
+    },
+    {
+        "id": 1408,
+        "name": "ÇERKEŞ"
+    },
+    {
+        "id": 515,
+        "name": "HASANKALE"
+    },
+    {
+        "id": 520,
+        "name": "KALIN"
+    },
+    {
+        "id": 443,
+        "name": "AŞAĞI GÜNEŞ"
+    },
+    {
+        "id": 522,
+        "name": "KANDİLLİ"
+    },
+    {
+        "id": 528,
+        "name": "KARASU"
+    },
+    {
+        "id": 529,
+        "name": "KARAURGAN"
+    },
+    {
+        "id": 533,
+        "name": "KAVAK"
+    },
+    {
+        "id": 534,
+        "name": "KAYABAŞI"
+    },
+    {
+        "id": 538,
+        "name": "KIZILCA"
+    },
+    {
+        "id": 539,
+        "name": "KIZOĞLU"
+    },
+    {
+        "id": 543,
+        "name": "ILICA"
+    },
+    {
+        "id": 545,
+        "name": "KARAÖZÜ"
+    },
+    {
+        "id": 585,
+        "name": "TOPDAĞI"
+    },
+    {
+        "id": 586,
+        "name": "YILDIZELİ"
+    },
+    {
+        "id": 593,
+        "name": "ÇETİNKAYA (MALATYA BM)"
+    },
+    {
+        "id": 598,
+        "name": "YENİCE D"
+    },
+    {
+        "id": 604,
+        "name": "KM.433+594 S"
+    },
+    {
+        "id": 632,
+        "name": "BASKİL"
+    },
+    {
+        "id": 633,
+        "name": "BATMAN"
+    },
+    {
+        "id": 636,
+        "name": "KUŞSARAYI"
+    },
+    {
+        "id": 637,
+        "name": "BEŞİRİ"
+    },
+    {
+        "id": 642,
+        "name": "ÇÖLTEPE"
+    },
+    {
+        "id": 647,
+        "name": "ELAZIĞ"
+    },
+    {
+        "id": 650,
+        "name": "ERGANİ"
+    },
+    {
+        "id": 656,
+        "name": "BEYHAN"
+    },
+    {
+        "id": 657,
+        "name": "BİSMİL"
+    },
+    {
+        "id": 658,
+        "name": "ÇAĞLAR"
+    },
+    {
+        "id": 1067,
+        "name": "AKGEDİK"
+    },
+    {
+        "id": 1109,
+        "name": "DİYARBAKIR"
+    },
+    {
+        "id": 1400,
+        "name": "KEPÇELİ"
+    },
+    {
+        "id": 1401,
+        "name": "KAPIKÖY"
+    },
+    {
+        "id": 1151,
+        "name": "DİVRİĞİ"
+    },
+    {
+        "id": 1130,
+        "name": "İLİÇ"
+    },
+    {
+        "id": 1153,
+        "name": "HORASAN"
+    },
+    {
+        "id": 655,
+        "name": "GEZİN"
+    },
+    {
+        "id": 660,
+        "name": "HEKİMHAN"
+    },
+    {
+        "id": 669,
+        "name": "KURT"
+    },
+    {
+        "id": 670,
+        "name": "KURTALAN"
+    },
+    {
+        "id": 673,
+        "name": "KÜRK"
+    },
+    {
+        "id": 611,
+        "name": "AYAZ"
+    },
+    {
+        "id": 674,
+        "name": "LEYLEK"
+    },
+    {
+        "id": 675,
+        "name": "MADEN"
+    },
+    {
+        "id": 683,
+        "name": "YAYLICA"
+    },
+    {
+        "id": 685,
+        "name": "MUŞ"
+    },
+    {
+        "id": 686,
+        "name": "PALU"
+    },
+    {
+        "id": 687,
+        "name": "PINARLI"
+    },
+    {
+        "id": 689,
+        "name": "SALLAR"
+    },
+    {
+        "id": 691,
+        "name": "EKEREK"
+    },
+    {
+        "id": 696,
+        "name": "MALATYA"
+    },
+    {
+        "id": 700,
+        "name": "MALATYA (ÇETİNKAYA BM)"
+    },
+    {
+        "id": 704,
+        "name": "ULAM"
+    },
+    {
+        "id": 707,
+        "name": "YOLÇATI"
+    },
+    {
+        "id": 711,
+        "name": "RAHOVA"
+    },
+    {
+        "id": 712,
+        "name": "TATVAN GAR"
+    },
+    {
+        "id": 716,
+        "name": "SİVRİCE"
+    },
+    {
+        "id": 718,
+        "name": "SUVEREN"
+    },
+    {
+        "id": 719,
+        "name": "ŞEFKAT"
+    },
+    {
+        "id": 747,
+        "name": "ADANA (KİREMİTHANE)"
+    },
+    {
+        "id": 762,
+        "name": "BELEMEDİK"
+    },
+    {
+        "id": 763,
+        "name": "BÖĞECİK"
+    },
+    {
+        "id": 777,
+        "name": "ARIKÖREN"
+    },
+    {
+        "id": 779,
+        "name": "AYRANCI"
+    },
+    {
+        "id": 1071,
+        "name": "SICAKSU"
+    },
+    {
+        "id": 1074,
+        "name": "ÇİFTEHAN"
+    },
+    {
+        "id": 1122,
+        "name": "GENÇ"
+    },
+    {
+        "id": 1123,
+        "name": "YAZIHAN"
+    },
+    {
+        "id": 773,
+        "name": "EREĞLİ"
+    },
+    {
+        "id": 781,
+        "name": "HACIKIRI"
+    },
+    {
+        "id": 786,
+        "name": "İNCİRLİK"
+    },
+    {
+        "id": 1141,
+        "name": "PAMUKOVA YHT"
+    },
+    {
+        "id": 789,
+        "name": "KARAİSALIBUCAĞI"
+    },
+    {
+        "id": 793,
+        "name": "KAŞINHAN"
+    },
+    {
+        "id": 799,
+        "name": "GÜMÜŞ"
+    },
+    {
+        "id": 800,
+        "name": "MERSİN"
+    },
+    {
+        "id": 802,
+        "name": "YAKAPINAR"
+    },
+    {
+        "id": 804,
+        "name": "MUSTAFAYAVUZ"
+    },
+    {
+        "id": 693,
+        "name": "ARZUOĞLU"
+    },
+    {
+        "id": 806,
+        "name": "NİZİP"
+    },
+    {
+        "id": 810,
+        "name": "POZANTI"
+    },
+    {
+        "id": 814,
+        "name": "SUDURAĞI"
+    },
+    {
+        "id": 815,
+        "name": "ŞAKİRPAŞA"
+    },
+    {
+        "id": 818,
+        "name": "DEMİRYURT"
+    },
+    {
+        "id": 820,
+        "name": "TAŞKENT"
+    },
+    {
+        "id": 828,
+        "name": "ULUKIŞLA"
+    },
+    {
+        "id": 317,
+        "name": "FURUNLU"
+    },
+    {
+        "id": 849,
+        "name": "OSMANCIK"
+    },
+    {
+        "id": 861,
+        "name": "YENİCE (ULUKIŞLA BM)"
+    },
+    {
+        "id": 862,
+        "name": "YENİCE (MERSİN BM)"
+    },
+    {
+        "id": 872,
+        "name": "BALIKESİR (TAVŞANLI BM)"
+    },
+    {
+        "id": 874,
+        "name": "AFYON ŞEHİR"
+    },
+    {
+        "id": 878,
+        "name": "ALÖVE"
+    },
+    {
+        "id": 883,
+        "name": "BARAKLI"
+    },
+    {
+        "id": 884,
+        "name": "BOZANÖNÜ"
+    },
+    {
+        "id": 885,
+        "name": "BOZKURT"
+    },
+    {
+        "id": 886,
+        "name": "BURDUR"
+    },
+    {
+        "id": 888,
+        "name": "BÜYÜKÇOBANLAR"
+    },
+    {
+        "id": 895,
+        "name": "ALAYUNT"
+    },
+    {
+        "id": 1077,
+        "name": "YENİCE"
+    },
+    {
+        "id": 1110,
+        "name": "ARGITHAN"
+    },
+    {
+        "id": 1124,
+        "name": "BALIKÖY"
+    },
+    {
+        "id": 902,
+        "name": "DEMİRLİ"
+    },
+    {
+        "id": 903,
+        "name": "DÖĞER"
+    },
+    {
+        "id": 904,
+        "name": "DUMLUPINAR"
+    },
+    {
+        "id": 905,
+        "name": "DURSUNBEY"
+    },
+    {
+        "id": 908,
+        "name": "EMİRLER"
+    },
+    {
+        "id": 907,
+        "name": "EKİNOVA"
+    },
+    {
+        "id": 912,
+        "name": "ÇAY"
+    },
+    {
+        "id": 913,
+        "name": "ÇİĞİLTEPE"
+    },
+    {
+        "id": 955,
+        "name": "SARAYÖNÜ"
+    },
+    {
+        "id": 958,
+        "name": "SİNDİRLER"
+    },
+    {
+        "id": 959,
+        "name": "SULTANDAĞI"
+    },
+    {
+        "id": 961,
+        "name": "SÜTLAÇ"
+    },
+    {
+        "id": 915,
+        "name": "ÇÖĞÜRLER"
+    },
+    {
+        "id": 962,
+        "name": "TAVŞANLI"
+    },
+    {
+        "id": 963,
+        "name": "TINAZTEPE"
+    },
+    {
+        "id": 965,
+        "name": "ULUKÖY"
+    },
+    {
+        "id": 967,
+        "name": "YILDIRIMKEMAL"
+    },
+    {
+        "id": 968,
+        "name": "PORSUK"
+    },
+    {
+        "id": 970,
+        "name": "SABUNCUPINAR"
+    },
+    {
+        "id": 971,
+        "name": "MURATLI  (MURATLI BM)"
+    },
+    {
+        "id": 976,
+        "name": "ALPULLU"
+    },
+    {
+        "id": 985,
+        "name": "ÇERKEZKÖY"
+    },
+    {
+        "id": 986,
+        "name": "ÇORLU"
+    },
+    {
+        "id": 995,
+        "name": "KABAKÇA"
+    },
+    {
+        "id": 996,
+        "name": "KAYABEYLİ"
+    },
+    {
+        "id": 1006,
+        "name": "EDİRNE"
+    },
+    {
+        "id": 1008,
+        "name": "BAHÇIVANOVA"
+    },
+    {
+        "id": 1081,
+        "name": "DİNAR"
+    },
+    {
+        "id": 1085,
+        "name": "ÇATALCA"
+    },
+    {
+        "id": 1086,
+        "name": "ISPARTAKULE"
+    },
+    {
+        "id": 1125,
+        "name": "EVCİLER"
+    },
+    {
+        "id": 1201,
+        "name": "PİRİBEYLER"
+    },
+    {
+        "id": 141,
+        "name": "HİMMETDEDE"
+    },
+    {
+        "id": 144,
+        "name": "ESENKENT"
+    },
+    {
+        "id": 162,
+        "name": "HÜYÜK"
+    },
+    {
+        "id": 165,
+        "name": "KAYSERİ (İNCESU)"
+    },
+    {
+        "id": 185,
+        "name": "NİĞDE"
+    },
+    {
+        "id": 188,
+        "name": "POLATLI"
+    },
+    {
+        "id": 192,
+        "name": "SİNCAN"
+    },
+    {
+        "id": 197,
+        "name": "TÜNEY"
+    },
+    {
+        "id": 205,
+        "name": "YAHŞİHAN"
+    },
+    {
+        "id": 209,
+        "name": "YERKÖY"
+    },
+    {
+        "id": 211,
+        "name": "YEŞİLHİSAR"
+    },
+    {
+        "id": 305,
+        "name": "ÇİĞLİ"
+    },
+    {
+        "id": 196,
+        "name": "TEMELLİ"
+    },
+    {
+        "id": 220,
+        "name": "YEŞİLYENİCE"
+    },
+    {
+        "id": 213,
+        "name": "ÇAMLARALTI"
+    },
+    {
+        "id": 217,
+        "name": "AKYAMAÇ"
+    },
+    {
+        "id": 306,
+        "name": "ÇOBANHASAN"
+    },
+    {
+        "id": 308,
+        "name": "ÇUKURHÜSEYİN"
+    },
+    {
+        "id": 309,
+        "name": "DENİZLİ"
+    },
+    {
+        "id": 1002,
+        "name": "KURFALLI"
+    },
+    {
+        "id": 1009,
+        "name": "PEHLİVANKÖY"
+    },
+    {
+        "id": 1013,
+        "name": "SİNEKLİ"
+    },
+    {
+        "id": 1016,
+        "name": "VELİMEŞE"
+    },
+    {
+        "id": 1025,
+        "name": "MURATLI"
+    },
+    {
+        "id": 1030,
+        "name": "TAYYAKADIN"
+    },
+    {
+        "id": 1031,
+        "name": "EDİRNE ŞEHİR"
+    },
+    {
+        "id": 1032,
+        "name": "KAPIKULE"
+    },
+    {
+        "id": 1101,
+        "name": "SEKİLİ"
+    },
+    {
+        "id": 1116,
+        "name": "ÇAMLIK"
+    },
+    {
+        "id": 425,
+        "name": "KM.1+164"
+    },
+    {
+        "id": 318,
+        "name": "GAZİEMİR"
+    },
+    {
+        "id": 321,
+        "name": "GERMENCİK"
+    },
+    {
+        "id": 322,
+        "name": "GONCALI"
+    },
+    {
+        "id": 323,
+        "name": "GONCALI MÜSELLES"
+    },
+    {
+        "id": 326,
+        "name": "HACIRAHMANLI"
+    },
+    {
+        "id": 330,
+        "name": "HOROZKÖY"
+    },
+    {
+        "id": 331,
+        "name": "HORSUNLU"
+    },
+    {
+        "id": 335,
+        "name": "EMİRALEM"
+    },
+    {
+        "id": 336,
+        "name": "İSHAKÇELEBİ"
+    },
+    {
+        "id": 338,
+        "name": "KAPAKLI"
+    },
+    {
+        "id": 340,
+        "name": "KARAAĞAÇLI"
+    },
+    {
+        "id": 343,
+        "name": "KAYIŞLAR"
+    },
+    {
+        "id": 344,
+        "name": "KEMER"
+    },
+    {
+        "id": 345,
+        "name": "KIRKAĞAÇ"
+    },
+    {
+        "id": 350,
+        "name": "KÖŞK"
+    },
+    {
+        "id": 352,
+        "name": "İNAY"
+    },
+    {
+        "id": 353,
+        "name": "İNCİRLİOVA"
+    },
+    {
+        "id": 1098,
+        "name": "ÇAYCUMA"
+    },
+    {
+        "id": 1162,
+        "name": "GÖKÇEBEY"
+    },
+    {
+        "id": 355,
+        "name": "MURADİYE"
+    },
+    {
+        "id": 1404,
+        "name": "RAZİ"
+    },
+    {
+        "id": 358,
+        "name": "NAZİLLİ"
+    },
+    {
+        "id": 360,
+        "name": "NOHUTOVA"
+    },
+    {
+        "id": 370,
+        "name": "KUYUCAK"
+    },
+    {
+        "id": 371,
+        "name": "MANİSA"
+    },
+    {
+        "id": 373,
+        "name": "MENEMEN"
+    },
+    {
+        "id": 413,
+        "name": "MENEMEN (MANİSA BM)"
+    },
+    {
+        "id": 416,
+        "name": "ÇİZÖZÜ"
+    },
+    {
+        "id": 921,
+        "name": "ÇİFTLİK"
+    },
+    {
+        "id": 1052,
+        "name": "GÜNEYKÖY"
+    },
+    {
+        "id": 1126,
+        "name": "KEÇİBORLU"
+    },
+    {
+        "id": 524,
+        "name": "GÖMEÇ"
+    },
+    {
+        "id": 551,
+        "name": "TOKAT(YEŞİLYURT)"
+    },
+    {
+        "id": 553,
+        "name": "OVASARAY"
+    },
+    {
+        "id": 554,
+        "name": "PALANDÖKEN"
+    },
+    {
+        "id": 557,
+        "name": "SAMSUN"
+    },
+    {
+        "id": 558,
+        "name": "SARIDEMİR"
+    },
+    {
+        "id": 560,
+        "name": "DEMİRKAPI"
+    },
+    {
+        "id": 562,
+        "name": "KÖPRÜKÖY"
+    },
+    {
+        "id": 563,
+        "name": "KUNDUZ"
+    },
+    {
+        "id": 565,
+        "name": "LADİK"
+    },
+    {
+        "id": 568,
+        "name": "SÜNGÜTAŞI"
+    },
+    {
+        "id": 572,
+        "name": "TANYERİ"
+    },
+    {
+        "id": 574,
+        "name": "TECER"
+    },
+    {
+        "id": 579,
+        "name": "SARIKAMIŞ"
+    },
+    {
+        "id": 580,
+        "name": "SARIMSAKLI"
+    },
+    {
+        "id": 581,
+        "name": "SELİM"
+    },
+    {
+        "id": 582,
+        "name": "GÜZELBEYLİ"
+    },
+    {
+        "id": 909,
+        "name": "GAZELLİDERE"
+    },
+    {
+        "id": 910,
+        "name": "GÖKÇEDAĞ"
+    },
+    {
+        "id": 911,
+        "name": "GÖKÇEKISIK"
+    },
+    {
+        "id": 916,
+        "name": "GÜZELYURT"
+    },
+    {
+        "id": 917,
+        "name": "GAZLIGÖL"
+    },
+    {
+        "id": 424,
+        "name": "ÇELİKALAN"
+    },
+    {
+        "id": 920,
+        "name": "ISPARTA"
+    },
+    {
+        "id": 922,
+        "name": "İHSANİYE"
+    },
+    {
+        "id": 924,
+        "name": "KADINHAN"
+    },
+    {
+        "id": 925,
+        "name": "KAKLIK"
+    },
+    {
+        "id": 1184,
+        "name": "ANKARA YHT GARI"
+    },
+    {
+        "id": 926,
+        "name": "KARAKUYU"
+    },
+    {
+        "id": 1063,
+        "name": "ÇADIRKAYA"
+    },
+    {
+        "id": 1111,
+        "name": "ILGIN"
+    },
+    {
+        "id": 1119,
+        "name": "SUBAŞI"
+    },
+    {
+        "id": 1154,
+        "name": "MERCAN"
+    },
+    {
+        "id": 1157,
+        "name": "SARIOĞLAN"
+    },
+    {
+        "id": 1158,
+        "name": "TURHAL"
+    },
+    {
+        "id": 1140,
+        "name": "KM. 146+338 HT"
+    },
+    {
+        "id": 154,
+        "name": "GÜRPINAR"
+    },
+    {
+        "id": 1143,
+        "name": "KM. 221+401 HT"
+    },
+    {
+        "id": 1144,
+        "name": "KM. 222+399 HT"
+    },
+    {
+        "id": 935,
+        "name": "KÖPRÜÖREN"
+    },
+    {
+        "id": 937,
+        "name": "KÜTAHYA"
+    },
+    {
+        "id": 938,
+        "name": "ALİKÖY"
+    },
+    {
+        "id": 941,
+        "name": "DEMİRÖZÜ"
+    },
+    {
+        "id": 942,
+        "name": "MAZLUMLAR"
+    },
+    {
+        "id": 945,
+        "name": "MEZİTLER"
+    },
+    {
+        "id": 947,
+        "name": "NUSRAT"
+    },
+    {
+        "id": 951,
+        "name": "KIZILİNLER"
+    },
+    {
+        "id": 952,
+        "name": "KİREÇ"
+    },
+    {
+        "id": 1089,
+        "name": "YENİ KARASAR"
+    },
+    {
+        "id": 1132,
+        "name": "HEREKE YHT"
+    },
+    {
+        "id": 1133,
+        "name": "YARIMCA YHT"
+    },
+    {
+        "id": 1134,
+        "name": "DERİNCE YHT"
+    },
+    {
+        "id": 1212,
+        "name": "KM. 476+050"
+    },
+    {
+        "id": 1305,
+        "name": "BURMAHAN (KM.801+150)"
+    },
+    {
+        "id": 1196,
+        "name": "HAVALİMANI DURAĞI"
+    },
+    {
+        "id": 1308,
+        "name": "ASMAKAYA"
+    },
+    {
+        "id": 600,
+        "name": "GÜMÜŞYURT"
+    },
+    {
+        "id": 20,
+        "name": "GEBZE"
+    },
+    {
+        "id": 182,
+        "name": "KAYSERİ"
+    },
+    {
+        "id": 206,
+        "name": "YENİDOĞAN"
+    },
+    {
+        "id": 652,
+        "name": "FIRAT"
+    },
+    {
+        "id": 1145,
+        "name": "BOZÜYÜK YHT"
+    },
+    {
+        "id": 1135,
+        "name": "İZMİT YHT"
+    },
+    {
+        "id": 292,
+        "name": "ESKİŞEHİR HT"
+    },
+    {
+        "id": 1402,
+        "name": "TEBRİZ"
+    },
+    {
+        "id": 302,
+        "name": "KUŞCENNETİ"
+    },
+    {
+        "id": 311,
+        "name": "KAVAKLIDERE"
+    },
+    {
+        "id": 316,
+        "name": "EŞME"
+    },
+    {
+        "id": 341,
+        "name": "KARAALİ"
+    },
+    {
+        "id": 361,
+        "name": "OKÇUGÖL"
+    },
+    {
+        "id": 386,
+        "name": "TEPEKÖY"
+    },
+    {
+        "id": 431,
+        "name": "BAHÇELİ (KM.755+290 S)"
+    },
+    {
+        "id": 470,
+        "name": "BOĞAZKÖY"
+    },
+    {
+        "id": 498,
+        "name": "ERZURUM"
+    },
+    {
+        "id": 514,
+        "name": "HANLI"
+    },
+    {
+        "id": 516,
+        "name": "HAVZA"
+    },
+    {
+        "id": 549,
+        "name": "MEŞELİDÜZ"
+    },
+    {
+        "id": 569,
+        "name": "SULUOVA"
+    },
+    {
+        "id": 587,
+        "name": "ZİLE"
+    },
+    {
+        "id": 706,
+        "name": "ULUOVA"
+    },
+    {
+        "id": 765,
+        "name": "CEYHAN"
+    },
+    {
+        "id": 1334,
+        "name": "UYANIK"
+    },
+    {
+        "id": 1337,
+        "name": "KAYACIK"
+    },
+    {
+        "id": 1335,
+        "name": "YENİDOĞAN DURAĞI"
+    },
+    {
+        "id": 134,
+        "name": "GÖKÇELER"
+    },
+    {
+        "id": 1333,
+        "name": "ULUKAYA"
+    },
+    {
+        "id": 166,
+        "name": "KİLİMLİ"
+    },
+    {
+        "id": 1309,
+        "name": "YAMANLAR"
+    },
+    {
+        "id": 1338,
+        "name": "DİLİSKELESİ YHT"
+    },
+    {
+        "id": 1386,
+        "name": "VAN"
+    },
+    {
+        "id": 840,
+        "name": "GAZİANTEP"
+    },
+    {
+        "id": 891,
+        "name": "ÇARDAK"
+    },
+    {
+        "id": 893,
+        "name": "AKŞEHİR"
+    },
+    {
+        "id": 899,
+        "name": "DEĞİRMENÖZÜ"
+    },
+    {
+        "id": 933,
+        "name": "GÜMÜŞGÜN"
+    },
+    {
+        "id": 956,
+        "name": "SELİMAĞA"
+    },
+    {
+        "id": 972,
+        "name": "MURATLI (KAPIKULE BM)"
+    },
+    {
+        "id": 1012,
+        "name": "SEYİTLER"
+    },
+    {
+        "id": 1068,
+        "name": "DEMİRİZ"
+    },
+    {
+        "id": 1083,
+        "name": "MEYDAN"
+    },
+    {
+        "id": 1347,
+        "name": "YOZGAT YHT"
+    },
+    {
+        "id": 1128,
+        "name": "LÜLEBURGAZ"
+    },
+    {
+        "id": 1159,
+        "name": "BALIKESİR"
+    },
+    {
+        "id": 1332,
+        "name": "BOZKANAT"
+    },
+    {
+        "id": 898,
+        "name": "DAZKIRI"
+    },
+    {
+        "id": 708,
+        "name": "YURT"
+    },
+    {
+        "id": 1147,
+        "name": "AKYAKA"
+    },
+    {
+        "id": 1391,
+        "name": "İSTANBUL(SİRKECİ)"
+    },
+    {
+        "id": 409,
+        "name": "TİRE"
+    },
+    {
+        "id": 1045,
+        "name": "POYRAZ"
+    },
+    {
+        "id": 286,
+        "name": "ARIKBAŞI"
+    },
+    {
+        "id": 1060,
+        "name": "ÇAKŞUR"
+    },
+    {
+        "id": 276,
+        "name": "BAYINDIR MYO"
+    },
+    {
+        "id": 392,
+        "name": "TOKI DURAĞI"
+    },
+    {
+        "id": 296,
+        "name": "CEBER KAMARA"
+    },
+    {
+        "id": 482,
+        "name": "KÖMÜR İŞLETMELERİ"
+    },
+    {
+        "id": 420,
+        "name": "ULAŞŞEHİR"
+    },
+    {
+        "id": 881,
+        "name": "FEN LİSESİ DURAĞI"
+    },
+    {
+        "id": 342,
+        "name": "KARPUZLU"
+    },
+    {
+        "id": 378,
+        "name": "SÖKE"
+    },
+    {
+        "id": 1054,
+        "name": "ÖDEMİŞ GAR"
+    },
+    {
+        "id": 825,
+        "name": "TOPRAKKALE"
+    },
+    {
+        "id": 98,
+        "name": "ANKARA GAR"
+    },
+    {
+        "id": 1053,
+        "name": "KİLLİK"
+    },
+    {
+        "id": 404,
+        "name": "ARMUTLU DURAĞI"
+    },
+    {
+        "id": 270,
+        "name": "GÜMÜŞÇAY DURAĞI"
+    },
+    {
+        "id": 1094,
+        "name": "İSMAİLBEY"
+    },
+    {
+        "id": 406,
+        "name": "YARAŞLI"
+    },
+    {
+        "id": 1056,
+        "name": "YEŞİLKAVAK"
+    },
+    {
+        "id": 349,
+        "name": "KÖSEALİ"
+    },
+    {
+        "id": 400,
+        "name": "YENİKÖY"
+    },
+    {
+        "id": 269,
+        "name": "AKKEÇİLİ DURAĞI"
+    },
+    {
+        "id": 682,
+        "name": "BOZDEMİR"
+    },
+    {
+        "id": 1388,
+        "name": "OSMANİYE"
+    },
+    {
+        "id": 1387,
+        "name": "GÖLBAŞI"
+    },
+    {
+        "id": 1403,
+        "name": "TAHRAN"
+    },
+    {
+        "id": 1323,
+        "name": "İSTANBUL(BOSTANCI)"
+    },
+    {
+        "id": 992,
+        "name": "İSTANBUL(HALKALI)"
+    },
+    {
+        "id": 770,
+        "name": "ÇUMRA"
+    },
+    {
+        "id": 671,
+        "name": "MURATBAĞI"
+    },
+    {
+        "id": 576,
+        "name": "ÖZDERE"
+    },
+    {
+        "id": 1328,
+        "name": "İSTANBUL(BAKIRKÖY)"
+    },
+    {
+        "id": 1040,
+        "name": "ALPU"
+    },
+    {
+        "id": 624,
+        "name": "GEMİCİ"
+    },
+    {
+        "id": 701,
+        "name": "DEMİRLİKUYU"
+    },
+    {
+        "id": 212,
+        "name": "ZONGULDAK"
+    },
+    {
+        "id": 638,
+        "name": "ÇİĞDEM"
+    },
+    {
+        "id": 1312,
+        "name": "OYMAPINAR"
+    },
+    {
+        "id": 1389,
+        "name": "YILDIZELİ YHT"
+    },
+    {
+        "id": 1390,
+        "name": "YERKÖY YHT"
+    },
+    {
+        "id": 1142,
+        "name": "BİLECİK YHT"
+    },
+    {
+        "id": 1015,
+        "name": "UZUNKÖPRÜ"
+    },
+    {
+        "id": 1113,
+        "name": "KÖSEKÖY"
+    },
+    {
+        "id": 1189,
+        "name": "DAVUTLAR KÖYÜ"
+    },
+    {
+        "id": 556,
+        "name": "ADATEPE"
+    },
+    {
+        "id": 836,
+        "name": "ŞEHİTLİK"
+    },
+    {
+        "id": 1414,
+        "name": "STARA ZAGORA"
+    },
+    {
+        "id": 566,
+        "name": "SİVAS"
+    },
+    {
+        "id": 1306,
+        "name": "ERYAMAN YHT"
+    },
+    {
+        "id": 791,
+        "name": "KARAMAN"
+    },
+    {
+        "id": 5,
+        "name": "ARİFİYE"
+    },
+    {
+        "id": 244,
+        "name": "POLATLI YHT"
+    },
+    {
+        "id": 796,
+        "name": "KONYA"
+    },
+    {
+        "id": 1325,
+        "name": "İSTANBUL(SÖĞÜTLÜÇEŞME)"
+    },
+    {
+        "id": 1397,
+        "name": "KM 21+652 MAKAS (KAYAŞ-LALAHAN)"
+    },
+    {
+        "id": 1396,
+        "name": "KELEBEK"
+    },
+    {
+        "id": 617,
+        "name": "TABUR"
+    },
+    {
+        "id": 794,
+        "name": "BÜYÜKDERBENT YHT"
+    },
+    {
+        "id": 1394,
+        "name": "KIRKİKİEVLER HT"
+    },
+    {
+        "id": 1392,
+        "name": "ELMADAĞ YHT"
+    },
+    {
+        "id": 1395,
+        "name": "TOKAT"
+    },
+    {
+        "id": 1346,
+        "name": "KIRIKKALE YHT"
+    },
+    {
+        "id": 320,
+        "name": "PAMUKÖREN"
+    },
+    {
+        "id": 571,
+        "name": "ŞARKIŞLA"
+    },
+    {
+        "id": 1418,
+        "name": "GIURGIU NORD"
+    },
+    {
+        "id": 1411,
+        "name": "PLOVDIV"
+    },
+    {
+        "id": 1420,
+        "name": "BUCURESTI NORD"
+    },
+    {
+        "id": 1415,
+        "name": "VELIKO TARNOVO"
+    },
+    {
+        "id": 1416,
+        "name": "GORNA ORYAHOVITSA"
+    },
+    {
+        "id": 1412,
+        "name": "DIMITROVGRAD"
+    },
+    {
+        "id": 1410,
+        "name": "PAZARDJIK"
+    },
+    {
+        "id": 1413,
+        "name": "SVILENGRAD"
+    },
+    {
+        "id": 1419,
+        "name": "VIDELE"
+    },
+    {
+        "id": 1417,
+        "name": "RUSE"
+    },
+    {
+        "id": 1409,
+        "name": "SOFYA(SOFIA)"
+    }
+]

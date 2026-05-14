@@ -1,0 +1,22 @@
+# SSH keys / secrets
+*.key
+*.key.pub
+*.pem
+.env
+.env.*
+
+# User data
+subscriptions.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
