@@ -61,6 +61,7 @@ def add_watch(chat_id: int, watch: dict) -> int:
     watch.setdefault("notified_trains", [])   # phase 2: alerted & seats still available
     watch.setdefault("awaiting_confirm", [])  # phase 3: sold out, waiting for user keep/stop
     watch.setdefault("excluded_trains", [])   # 'any'-mode trains the user explicitly stopped
+    watch.setdefault("holds", {})             # {train_number: {train_car_id, allocation_id, seat_number}}
     user["next_id"] = watch_id + 1
     user["watches"].append(watch)
     save_subs(subs)
@@ -139,6 +140,49 @@ def clear_awaiting_confirm(chat_id: int, watch_id: int, train_number: str) -> No
     _mutate_field(chat_id, watch_id, "awaiting_confirm", train_number, add=False)
 
 
+def record_hold(
+    chat_id: int, watch_id: int, train_number: str,
+    train_car_id: int, allocation_id: str, seat_number: str,
+) -> None:
+    """Save the held-seat coordinates so a later Release click can find them."""
+    subs = load_subs()
+    user = subs.get(str(chat_id))
+    if not user:
+        return
+    for w in user["watches"]:
+        if int(w.get("id", 0)) != watch_id:
+            continue
+        holds = w.setdefault("holds", {})
+        holds[str(train_number)] = {
+            "train_car_id": train_car_id,
+            "allocation_id": allocation_id,
+            "seat_number": seat_number,
+        }
+        save_subs(subs)
+        return
+
+
+def pop_hold(chat_id: int, watch_id: int, train_number: str) -> dict | None:
+    """Remove and return the recorded hold for this train, or None if missing.
+
+    Pop-not-peek so two rapid Release clicks can't double-fire the API call.
+    """
+    subs = load_subs()
+    user = subs.get(str(chat_id))
+    if not user:
+        return None
+    for w in user["watches"]:
+        if int(w.get("id", 0)) != watch_id:
+            continue
+        holds = w.get("holds") or {}
+        info = holds.pop(str(train_number), None)
+        if info is not None:
+            w["holds"] = holds
+            save_subs(subs)
+        return info
+    return None
+
+
 def stop_train_on_watch(chat_id: int, watch_id: int, train_number: str) -> dict:
     """Drop a train from a watch following a 'Stop' button.
 
@@ -160,6 +204,9 @@ def stop_train_on_watch(chat_id: int, watch_id: int, train_number: str) -> dict:
         w["awaiting_confirm"] = awaiting
         notified = [t for t in (w.get("notified_trains") or []) if t != train_number]
         w["notified_trains"] = notified
+        holds = w.get("holds") or {}
+        holds.pop(str(train_number), None)
+        w["holds"] = holds
         explicit = list(w.get("train_numbers") or [])
         if explicit:
             new_list = [t for t in explicit if t != train_number]

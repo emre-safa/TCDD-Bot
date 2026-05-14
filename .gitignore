@@ -7,8 +7,11 @@
 
 # User data
 subscriptions.json
-exemplary-load-by-train-id.json
-exemplary-train-availability.json
+exemplary-load-by-train-id-response.json
+exemplary-train-availability-response.json
+exemplary-select-seat-response.json
+exemplary-select-seat-payload.json
+exemplary-release-seat-payload.json
 
 # Python
 __pycache__/

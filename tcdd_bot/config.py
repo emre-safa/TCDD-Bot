@@ -38,6 +38,10 @@ TCDD_SELECT_SEAT_URL = (
     "https://web-api-prod-ytp.tcddtasimacilik.gov.tr"
     "/tms/inventory/select-seat?environment=dev&userId=1"
 )
+TCDD_RELEASE_SEAT_URL = (
+    "https://web-api-prod-ytp.tcddtasimacilik.gov.tr"
+    "/tms/inventory/release-seat?environment=dev&userId=1"
+)
 TARGET_CABIN_CLASS = "EKONOMİ"
 
 # Single-passenger hold for now; can become per-watch / per-user later.

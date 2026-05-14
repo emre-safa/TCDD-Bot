@@ -14,6 +14,7 @@ from tcdd_bot.subscriptions import (
     load_subs,
     mark_awaiting_confirm,
     mark_notified,
+    record_hold,
 )
 from tcdd_bot.tcdd_api import collect_train_availability, query_availability
 from tcdd_bot.telegram_api import tg_send
@@ -77,6 +78,14 @@ def _keep_stop_keyboard(watch_id: int, train_number: str) -> dict:
     }
 
 
+def _release_keyboard(watch_id: int, train_number: str) -> dict:
+    return {
+        "inline_keyboard": [[
+            {"text": "🔓 Release seat", "callback_data": f"r:{watch_id}:{train_number}"},
+        ]],
+    }
+
+
 def handle_user_watch(chat_id: int, watch: dict, train_avail: dict[str, dict]) -> None:
     explicit = {str(n).strip() for n in (watch.get("train_numbers") or []) if str(n).strip()}
     notified = set(watch.get("notified_trains") or [])
@@ -123,11 +132,27 @@ def handle_user_watch(chat_id: int, watch: dict, train_avail: dict[str, dict]) -
                 except Exception as e:
                     print(f"[hold] unexpected error: {e}", file=sys.stderr)
 
+            reply_markup: dict | None = None
             if hold:
                 wagon_idx = hold.get("wagon_index")
                 wagon_label = (
                     str(wagon_idx + 1) if isinstance(wagon_idx, int) else "?"
                 )
+                allocation_id = hold.get("allocation_id")
+                train_car_id = hold.get("train_car_id")
+                if allocation_id and train_car_id is not None:
+                    record_hold(
+                        chat_id, watch["id"], number,
+                        int(train_car_id), str(allocation_id), hold["seat"],
+                    )
+                    reply_markup = _release_keyboard(watch["id"], number)
+                    footer = (
+                        "_Tap *Release seat* below to free it instantly so you "
+                        "can rebook it yourself; otherwise the hold expires in "
+                        "10 minutes._"
+                    )
+                else:
+                    footer = "_The seat will release automatically if not paid._"
                 msg = (
                     "🎫 *TCDD SEAT HELD* 🎫\n\n"
                     f"Train *{number}*  ({depart} → {arrive})\n"
@@ -136,7 +161,7 @@ def handle_user_watch(chat_id: int, watch: dict, train_avail: dict[str, dict]) -
                     f"Seat *{hold['seat']}*  (wagon {wagon_label})\n\n"
                     "*Complete payment within 10 minutes:*\n"
                     "https://ebilet.tcddtasimacilik.gov.tr/\n\n"
-                    "_The seat will release automatically if not paid._"
+                    f"{footer}"
                 )
             else:
                 msg = (
@@ -155,7 +180,7 @@ def handle_user_watch(chat_id: int, watch: dict, train_avail: dict[str, dict]) -
                 f"({depart}→{arrive}): {count} seats — "
                 f"{'held ' + hold['seat'] if hold else 'hold failed'}"
             )
-            tg_send(chat_id, msg)
+            tg_send(chat_id, msg, reply_markup=reply_markup)
             mark_notified(chat_id, watch["id"], number)
         else:
             # count == 0

@@ -8,11 +8,13 @@ import traceback
 from datetime import datetime
 
 from tcdd_bot.config import CHECK_INTERVAL_SECONDS
+from tcdd_bot.seat_hold import release_seat
 from tcdd_bot.stations import find_stations, load_stations
 from tcdd_bot.subscriptions import (
     add_watch,
     clear_awaiting_confirm,
     get_user,
+    pop_hold,
     remove_watch,
     set_pause,
     stop_train_on_watch,
@@ -386,7 +388,7 @@ def handle_callback(cb: dict) -> None:
         return
 
     parts = data.split(":", 2)
-    if len(parts) != 3 or parts[0] not in ("k", "s") or not parts[1].isdigit():
+    if len(parts) != 3 or parts[0] not in ("k", "s", "r") or not parts[1].isdigit():
         tg_answer_callback(cb_id, "Invalid action.")
         return
     action, watch_id_str, train_number = parts
@@ -403,6 +405,42 @@ def handle_callback(cb: dict) -> None:
                 f"✅ Still watching train *{train_number}*. "
                 f"I'll alert you again if seats reopen.",
             )
+        return
+
+    if action == "r":
+        # Pop first so a second click can't double-fire the release call.
+        info = pop_hold(chat_id, watch_id, train_number)
+        if not info:
+            tg_answer_callback(cb_id, "No active hold")
+            if message_id is not None:
+                tg_edit_message(
+                    chat_id,
+                    int(message_id),
+                    f"ℹ️ No active hold on train *{train_number}* "
+                    f"(already released or expired).",
+                )
+            return
+        ok = release_seat(
+            int(info["train_car_id"]),
+            str(info["allocation_id"]),
+            str(info["seat_number"]),
+        )
+        if ok:
+            tg_answer_callback(cb_id, "Released")
+            body = (
+                f"🔓 Seat *{info['seat_number']}* released on train "
+                f"*{train_number}*.\n\nBook it now: "
+                f"https://ebilet.tcddtasimacilik.gov.tr/"
+            )
+        else:
+            tg_answer_callback(cb_id, "Release failed")
+            body = (
+                f"⚠️ Couldn't release seat *{info['seat_number']}* on train "
+                f"*{train_number}* — TCDD rejected the request. The hold may "
+                f"have already expired."
+            )
+        if message_id is not None:
+            tg_edit_message(chat_id, int(message_id), body)
         return
 
     # action == "s"
